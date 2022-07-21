@@ -1,4 +1,7 @@
-# coding: utf-8
+##########################
+# This is a tutorial for space weather interns
+# Prepared by Dr. Gemechu Fanta
+#########################
 import pandas as pd
 ds = pd.read_csv('noaa_goes13_epead_electron_flux_a_5m.csv')
 ds.columns=['time','electron_flux']
